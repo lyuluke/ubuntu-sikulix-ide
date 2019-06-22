@@ -11,10 +11,13 @@ RUN \
 #==================================================
   apt-get update && \
   apt-get -y install xtightvncviewer \
-  vim && \
+  vim \
+  spyder3 && \
   apt-get clean && rm -rf /var/lib/apt/lists/* &&\
   cd /root/SikuliX && \
   wget https://raiman.github.io/SikuliX1/sikulix.jar -O sikulix.jar
+
+
   
 
 
