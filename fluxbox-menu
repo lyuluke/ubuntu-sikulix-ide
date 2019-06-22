@@ -13,7 +13,7 @@
          [exec] (Terminal) {/usr/bin/xterm} <>
       [end]
       [submenu] (SikulixIDE) {}
-         [exec] (Start) {java -jar /root/SikuliX/sikulix.jar -v} <>
+         [exec] (Start) {sudo /usr/bin/java -jar /root/SikuliX/sikulix.jar -v} <>
       [end]
       [submenu] (spyder3-PythonIDE) {}
          [exec] (Start) {/usr/bin/spyder3} <>
