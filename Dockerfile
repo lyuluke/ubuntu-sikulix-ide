@@ -18,6 +18,6 @@ RUN \
 # sikulix IDE
 #==================================================
   cd /root/SikuliX && \
-  wget https://raiman.github.io/SikuliX1/sikulix.jar -O sikulix.jar \
+  wget https://raiman.github.io/SikuliX1/sikulix.jar -O sikulix.jar 
 
 COPY fluxbox-menu /etc/X11/fluxbox/fluxbox-menu
